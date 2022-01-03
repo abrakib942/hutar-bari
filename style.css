@@ -7,3 +7,21 @@ body{
     .orange-color{
         color: orange;
     }
+    section{
+        display: flex;
+    }
+    .half-width{
+        width: 50%;
+        padding-left: 10%;
+    }
+    .half-width img{
+        width: 60%;
+        padding-top: 10%;
+    }
+    .link-button{
+        text-decoration: none;
+        background-image: linear-gradient(orange, tomato);
+        padding: 5px  10px;
+        color: white;
+        font-weight: 700;
+    }
